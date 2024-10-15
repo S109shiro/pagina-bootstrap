@@ -1,0 +1,26 @@
+body {
+    background-color: whitesmoke;
+}
+
+.productos {
+    background-color: gainsboro;
+    border-radius: 20px;
+}
+
+.productos .card {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    transition:  0.5s;
+}
+
+.productos .card:hover {
+    transition:  0.5s;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    cursor: pointer;
+    
+}
+
+.accordion {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
