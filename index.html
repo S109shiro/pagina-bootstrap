@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <title>Figuras Online - Inicio</title>
+    <title>FigurasOnline - Inicio</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary bg-info-subtle text-info-emphasis">
@@ -147,7 +147,7 @@
     </div>
 
     <div class="formulario-contenedor container-lg">
-        <h2><strong>¿No encuentras lo que buscas?</strong> Escribenos y te atenderemos lo mas pronto posible</h2>
+        <h2 class="preguntaFormulario">¿No encuentras lo que buscas? Escribenos y te atenderemos lo más pronto posible  ~(＾▽＾)~</h2>
         <form class="formulario">
           <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Nombre</label>
@@ -166,8 +166,9 @@
             <select class="form-select" aria-label="Default select example" name="solicitud" required>
               <option value="0">Problemas en la entrega de un paquete</option>
               <option value="1">Apartar una figura</option>
-              <option value="2">Pedir una figura de Japón</option>
-              <option value="3">Otro</option>
+              <option value="2">Pedir una figura desde Japón</option>
+              <option value="3">Notificar un desperfecto</option>
+              <option value="4">Otro</option>
             </select>
           </div>
           <div class="mb-3">
@@ -189,7 +190,7 @@
             </div>
           </div>
           <div class="mb-3">
-            <button type="submit" class="btn btn-outline-success">Enviar</button>
+            <button type="submit" class="btn btn-outline-primary">Enviar</button>
           </div>
         </form>
         
@@ -198,15 +199,12 @@
 
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top bg-info text-dark">
       <div class="col-md-4 d-flex align-items-center">
-        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
-        </a>
-        <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2024 Company, Inc</span>
+        <span class="mb-3 mb-md-0 text-body-secondary textoFooter">&copy; 2024 FigurasOnline, Inc</span>
       </div>
-      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-        <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
-        <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-        <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex redes">
+        <li class="ms-3"><a class="text-body-secondary" href="https://x.com/home?lang=es" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a></li>
       </ul>
     </footer>
 

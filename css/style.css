@@ -8,7 +8,7 @@ body {
     font-family: Helvetica, sans-serif;
 }
 
-.navbar-brand, .titulo1, .card-title, .tituloPreguntas {
+.navbar-brand, .titulo1, .card-title, .tituloPreguntas, .preguntaFormulario{
     font-family: Titulos, Helvetica, sans-serif;
     font-weight: bold;
 }
@@ -63,3 +63,31 @@ body {
     margin-bottom: 50px;
 }
 
+.preguntaFormulario {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.form-label {
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.textoFooter {
+    font-style: oblique;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+.redes {
+    margin-right: 60px;
+}
+
+.redes li svg {
+    transition: 0.5s;
+}
+
+.redes li svg:hover {
+    transition: 0.5s;
+    color: white;
+}
