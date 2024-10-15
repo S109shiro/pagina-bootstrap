@@ -1,5 +1,28 @@
+@font-face {
+    font-family: "Titulos";
+    src: url("/fuentes/BebasNeue-Regular.ttf");
+}
+
 body {
     background-color: whitesmoke;
+    font-family: Helvetica, sans-serif;
+}
+
+.navbar-brand, .titulo1, .card-title, .tituloPreguntas {
+    font-family: Titulos, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    font-size: 20px;
+}
+
+.titulo1 {
+    font-size: 50px;
+}
+
+.card-title {
+    font-size: 21px;
 }
 
 .productos {
@@ -15,12 +38,28 @@ body {
 
 .productos .card:hover {
     transition:  0.5s;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.349);
     cursor: pointer;
     
+}
+
+.compra{
+    transition: 0.5s;
+}
+
+.compra:hover {
+    transition: 0.5s;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgb(12, 110, 253);
+    color: rgb(12, 110, 253);
+}
+
+.tituloPreguntas {
+    font-size: 45px;
 }
 
 .accordion {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
